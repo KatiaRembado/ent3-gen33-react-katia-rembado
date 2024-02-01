@@ -33,7 +33,7 @@ function App() {
       </form>
       {
         isLoading
-          ? <h2 className='app__loading'><h2>LOADING...</h2><img className='app__loading-image' src="../public/rickandmorty.gif" alt="" /></h2>
+          ? <h2 className='app__loading'><h2>LOADING...</h2><img className='app__loading-image' src="../rickandmorty.gif" alt="" /></h2>
           : (
             hasError || locationId === '0' || locationId === ''
               ? <h2 className='app__error'>❌ You must provide an id from 1 to 126</h2>
